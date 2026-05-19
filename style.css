@@ -9,8 +9,8 @@ html, body {
 }
 body{
   background-color: pink;
-  height:70px ;
-  width:250px;
+  height:950px ;
+  width:300px;
   padding-left: 15px;
   margin:10px solid black;
   display: flex;
@@ -43,7 +43,7 @@ main {
   height:200px ;
   width:120px;
   background-color: yellow;
-  gap: 10px;
+  gap: 100px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
