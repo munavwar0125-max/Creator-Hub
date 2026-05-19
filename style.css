@@ -42,7 +42,7 @@ main {
 .container{
   height:200px ;
   width:120px;
-  background-color: yellow;
+  background-color: pink;
   gap: 100px;
   display: flex;
   flex-direction: column;
@@ -51,8 +51,8 @@ main {
   
 }
 .card{
-  height:150px ;
-  width:200px;
+  height:250px ;
+  width:250px;
   background-color: yellow;
   border:2px solid black;
   border-radius: 25px;
