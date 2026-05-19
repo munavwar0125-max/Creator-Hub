@@ -42,3 +42,15 @@ body{
   margin:2px solid black;
   border-radius: 25px;
   text-align: center;
+}
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 14px;
+}
+
+footer p {
+  margin: 0;
+}
