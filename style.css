@@ -4,9 +4,6 @@
   box-sizing: border-box;
 }
 
-html, body {
-  height: 100%;
-}
 
 body{
   background-color: pink;
@@ -19,7 +16,8 @@ body{
   
 }
 main {
-  flex: 1; /* pushes footer down */
+  flex: 1; 
+  padding/* pushes footer down */
 }
 
 .heading h4,
