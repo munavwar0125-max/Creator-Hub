@@ -17,7 +17,7 @@ body{
 }
 main {
   flex: 1; 
-  padding/* pushes footer down */
+  padding:/* pushes footer down */
 }
 
 .heading h4,
