@@ -42,12 +42,13 @@ main {
 .container{
   height:200px ;
   width:120px;
-  background-color: pink;
+  background-color: yellow;
+  gap: ;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-content: center;
-  gap: 20px;
+  
 }
 .card{
   height:150px ;
