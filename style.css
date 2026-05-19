@@ -45,5 +45,8 @@ body{
 }
 h4{
   display: flex;
-  flex
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  
 }
