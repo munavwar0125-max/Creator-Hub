@@ -1,3 +1,43 @@
 body{
-  background-color: black;
+  background-color: pink;
+  height:100px ;
+  width:200px;
+  padding: 5px;
+  
+}
+
+.heading h4,
+.heading h6{
+  margin: 0;
+  padding: 0;
+}
+
+.heading{
+  height: 50px;
+  width: 300px;
+  color: green;
+  display:flex;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 0px;
+  gap: 0px;
+}
+
+.container{
+  height:200px ;
+  width:120px;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-content: center;
+  gap: 20px;
+}
+.card{
+  height:150px ;
+  width:150px;
+  background-color: yellow;
+  margin:2px solid black;
+  border-radius: 25px;
+  text-align: center;
 }
