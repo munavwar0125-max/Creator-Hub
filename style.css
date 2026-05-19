@@ -3,7 +3,7 @@ body{
   height:100px ;
   width:250px;
   padding: 15px;
-  margin:10px;
+  margin:10px solid black;
   
   
 }
@@ -42,11 +42,3 @@ body{
   margin:2px solid black;
   border-radius: 25px;
   text-align: center;
-}
-h4{
-  
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  
-}
