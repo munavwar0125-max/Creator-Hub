@@ -44,5 +44,6 @@ body{
   text-align: center;
 }
 h4{
+  display: flex;
   
 }
