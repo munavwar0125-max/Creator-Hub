@@ -36,7 +36,7 @@ body{
 }
 .card{
   height:150px ;
-  width:150px;
+  width:350px;
   background-color: yellow;
   margin:2px solid black;
   border-radius: 25px;
