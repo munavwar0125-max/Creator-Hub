@@ -58,6 +58,8 @@ main {
   border-radius: 25px;
   text-align: center;
   flex-direction:column ;
+  display: grid;
+  place-items: center;
 }
 footer {
   background-color: #222;
