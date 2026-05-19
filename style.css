@@ -8,6 +8,9 @@ body{
   flex-direction:column ;
   
 }
+main {
+  flex: 1; /* pushes footer down */
+}
 
 .heading h4,
 .heading h6{
