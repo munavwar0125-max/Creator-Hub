@@ -11,7 +11,7 @@ body{
   background-color: pink;
   height:70px ;
   width:250px;
-  padding: 15px;
+  padding-left: 15px;
   margin:10px solid black;
   display: flex;
   flex-direction:column ;
@@ -62,7 +62,7 @@ footer {
   color: #fff;
   text-align: center;
   padding:  15px;
-  font-size: 14px;
+  font-size: 4px;
 }
 
 footer p {
