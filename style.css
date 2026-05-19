@@ -40,10 +40,10 @@ main {
 }
 
 .container{
-  height:200px ;
+  height:860px ;
   width:120px;
   background-color: pink;
-  gap: 100px;
+  gap: 25px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
