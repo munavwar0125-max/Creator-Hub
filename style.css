@@ -9,17 +9,7 @@ html, body {
 }
 body{
   background-color: pink;
-  height:950px ;
-  width:300px;
-  padding-left: 15px;
-  margin:10px solid black;
-  display: flex;
-  flex-direction:column ;
   min-height: 100vh;
-}
-main {
-  flex: 1; 
-  padding:20px/* pushes footer down */
 }
 
 .heading h4,
@@ -29,21 +19,12 @@ main {
 }
 
 .heading{
-  height: 50px;
-  width: 300px;
-  color: green;
-  display:flex;
-  align-items: flex-start;
-  flex-direction: column;
-  padding: 0px;
-  gap: 0px;
+  background: black;
+  
 }
 
 .container{
-  height:860px ;
-  width:120px;
   background-color: pink;
-  gap: 25px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -51,13 +32,12 @@ main {
   
 }
 .card{
-  height:450px ;
-  width:250px;
+  
   background-color: yellow;
   border:2px solid black;
   border-radius: 25px;
   text-align: center;
-  flex-direction:column ;
+  
   display: grid;
   place-items: center;
 }
