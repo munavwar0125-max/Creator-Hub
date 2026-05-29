@@ -24,7 +24,7 @@ background: black;
   
 }
 .heading{
-  border: solid 2px white;
+  
   color: green;
   /*text-align: center;*/
   display: flex;
@@ -38,7 +38,7 @@ background: black;
   text-align: top;
   border-bottom: 0px;
   height:35px;
-  border:solid 2px white;
+  
   
 }
 #hub{
