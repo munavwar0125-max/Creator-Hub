@@ -45,6 +45,11 @@ background: #ffff;
   margin-top: 15px;
   padding-left:50px ;
 }
+#search{
+  height: 71px;
+  width: 89px;
+  object-fit:cover ;
+}
 #hub{
   height: 71px;
   width: 89px;
