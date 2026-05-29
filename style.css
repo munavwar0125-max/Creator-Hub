@@ -14,12 +14,25 @@ body{
 }
 header{
   display: flex;
+  flex-wrap: wrap;
   flex-direction: row;
-}
-.heading{
   background: black;
   color: green;
+}
+.heading{
+  border: solid 2px white;
+  color: green;
   /*text-align: center;*/
+  
+}
+#infi{
+  position: fixed;
+  top: 0;
+  right: 0;
+  text-align: top;
+  border-bottom: 0px;
+  height:35px;
+  border:solid 2px white;
   
 }
 .title{
