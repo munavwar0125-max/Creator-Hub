@@ -13,17 +13,23 @@ body{
   padding: 0;
 }
 header{
+  height: 50px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  background: black;
+background: black;
   color: green;
+  position: sticky;
+  top: 0;
+  
 }
 .heading{
   border: solid 2px white;
   color: green;
   /*text-align: center;*/
-  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
 }
 #infi{
   position: fixed;
@@ -34,6 +40,13 @@ header{
   height:35px;
   border:solid 2px white;
   
+}
+#hub{
+  height: 62px;
+  width: 79px;
+  object-fit:cover ;
+  
+  background: ;
 }
 .title{
   text-align: center;
