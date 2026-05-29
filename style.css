@@ -7,13 +7,13 @@ body{
   
 }
 
-.heading h4,
+.heading h2,
 .heading h6{
   margin: 0;
   padding: 0;
 }
 header{
-  height: 72px;
+  height: 65px;
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
@@ -43,19 +43,21 @@ background: #ffff;
 }
 #head{
   margin-top: 15px;
-  padding-left:50px ;
+  padding-left:25px ;
+  background-color: ;
 }
 #search{
-  height: 71px;
+  height: 65px;
   width: 89px;
-  object-fit:cover ;
+  object-fit:contain ;
+  background: #ffff;
 }
 #hub{
-  height: 71px;
-  width: 89px;
+  height: 65px;
+  width: 82px;
   object-fit:cover ;
   
-  background: ;
+  background-color: yellow;
 }
 .title{
   text-align: center;
