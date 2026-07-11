@@ -1,17 +1,72 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
+<html>
+  <head>
+    <meta name="google-site-verification" content="M7DJvtF9Cjwhr4J6KAveNsVTDJH0ovawVv1atBeqkP0">
+    <title> Munavwar Mini Calculator </title>
+    <meta name="description" content="Simple calculator by Munavwar">
     <link rel="stylesheet" href="style.css">
-</head>
-
-<body>
-<p>welcome°_°</p>
+  </head>
+  <body>
+    <div class="title">
+       <h2><b>Mini-Calculator</b></h2>
+    <h5><i>by Munavwar Shaik</i></h5>
+    </div>
+   
     
-
+    <div id="container">
+    <div class="top">
+      <div class="ac" onclick="clearDisplay()"><h1>Ac</h1></div>
+      <input type="text" class="display"readonly>
+      </div>
+        <div class="box" onclick="appendValue('1')">
+      <h1>1</h1> </div>
+        <div class ="box" onclick="appendValue('2')">
+      <h1>2</h1>
+       </div>
+       <div class ="box" onclick="appendValue('3')">
+      <h1>3</h1>
+        </div>
+         <div class ="green" onclick="appendValue('+')">
+      <h1>+</h1>
+        </div>
+        <div class ="box" onclick="appendValue('4')">
+      <h1>4</h1>
+        </div>
+        <div class ="box" onclick="appendValue('5')">
+      <h1>5</h1>
+        </div>
+         <div class ="box" onclick="appendValue('6')">
+      <h1>6</h1>
+        </div>
+         <div class ="green" onclick="appendValue('-')">
+      <h1>-</h1>
+        </div>
+         <div class ="box" onclick="appendValue('7')">
+      <h1>7</h1>
+        </div>
+         <div class ="box" onclick="appendValue('8')">
+      <h1>8</h1>
+        </div>
+        <div class ="box" onclick="appendValue('9')">
+      <h1>9</h1>
+        </div>
+        <div class ="green" onclick="appendValue('*')">
+      <h1>×</h1>
+        </div>
+         <div class ="red" onclick="deleteLast()">
+      <h1>Del</h1></div>
+         <div class ="box" onclick="appendValue('0')">
+      <h1>0</h1>
+        </div>
+         <div class ="red" onclick="calculate()">
+      <h1>=</h1>
+        </div>
+        <div class ="green" onclick="appendValue('/')">
+      <h1>/</h1>
+        </div>    
+        
+     
+    </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
