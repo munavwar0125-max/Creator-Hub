@@ -1,0 +1,64 @@
+body{
+  background:black ;
+
+}
+.item {
+  height: 40px;              /* must match ITEM_HEIGHT = 40 in JS */
+ 
+  font-size: 24px;
+  scroll-snap-align: center;
+}
+.ws{
+  height: 300px;
+  width: 300px;
+  border: 2px solid white;
+  border-radius: 100%;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 15px;
+  background: navy;
+}
+.wheel{
+  background:white ;
+  color:black;
+  width: 55px;
+  height: 200px;
+  font-size: 15px;
+  text-align: center;
+  overflow-y:scroll;
+ /*scroll-snap-type:y mandatory;*/
+  background:cyan;
+  border-radius:10px;
+  /*border:1px solid #ccc;*/
+}
+#display{
+  height: 70px;
+  width: 300px;
+  background: ;
+  text-align: center;
+  color: white;
+  border-radius: 20px;
+  border: 2px solid black;
+  font-size: 25px;
+}
+.control{
+  height: 55px;
+  width: 100px;
+  background: lightblue;
+}
+
+.control:hover{
+  transform: scale(1.6px);
+  opacity: 0.8;
+}
+#start{
+  background: green;
+}
+#pause{
+  background: yellow;
+}
+#reset{
+  background: red;
+}
