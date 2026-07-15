@@ -7,11 +7,11 @@ body{
   
 }
 #logo{
-  background: black;
+  /*background: black;
   height: 10px;
   position: sticky;
   top: 0;
-  border:grey;
+  border:grey;*/
 }
 }
 .heading h2,
@@ -22,11 +22,11 @@ body{
 header{
   height: 65px;
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 background: black;
   color: green;
-  position: sticky;
+  position: relative;
   top: 0;
   
 }
