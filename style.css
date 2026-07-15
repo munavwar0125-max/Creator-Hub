@@ -6,7 +6,14 @@ body{
   background-color: pink;
   
 }
-
+#logo{
+  background: black;
+  height: 10px;
+  position: sticky;
+  top: 0;
+  border:grey;
+}
+}
 .heading h2,
 .heading h6{
   margin: 0;
@@ -17,7 +24,7 @@ header{
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-background: #ffff;
+background: black;
   color: green;
   position: sticky;
   top: 0;
@@ -25,7 +32,7 @@ background: #ffff;
 }
 .heading{
   
-  color: green;
+  color: white;
   /*text-align: center;*/
   display: flex;
   flex-direction: row;
@@ -43,8 +50,10 @@ background: #ffff;
 }
 #head{
   margin-top: 15px;
-  padding-left:25px ;
+  padding-left:100px ;
   background-color: ;
+  display: position;
+  position-anchor: center;
 }
 #search{
   height: 65px;
