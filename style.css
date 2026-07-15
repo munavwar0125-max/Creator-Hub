@@ -7,12 +7,24 @@ body{
   
 }
 #logo{
-  /*background: black;
-  height: 10px;
-  position: sticky;
-  top: 0;
-  border:grey;*/
+  
+}#head {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
 }
+
+.heading{
+  
+  color: white;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+}
+.heading > div:first-child {
+  /* the logo/image div — stays left naturally */
 }
 .heading h2,
 .heading h6{
@@ -21,23 +33,14 @@ body{
 }
 header{
   height: 65px;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+  
 background: black;
   color: green;
   position: relative;
   top: 0;
   
 }
-.heading{
-  
-  color: white;
-  /*text-align: center;*/
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-start;
-}
+
 #infi{
   position: fixed;
   top: 0;
@@ -48,13 +51,7 @@ background: black;
   
   
 }
-#head{
-  margin-top: 15px;
-  padding-left:100px ;
-  background-color: ;
-  display: position;
-  position-anchor: center;
-}
+
 #search{
   height: 65px;
   width: 89px;
