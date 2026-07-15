@@ -17,7 +17,7 @@ border-radius: 15px;
   
   position: sticky;
   left: 50%;
-  transform: translateX(-85%);
+  transform: translateX(+5%);
   text-align: center;
 }
 
