@@ -7,8 +7,13 @@ body{
   
 }
 #logo{
-  
+  margin: 5px ;
+  border: 2px solid grey;
+border-radius: 15px;
 }#head {
+  color: white;
+  margin: 5px;
+  
   position: absolute;
   left: 50%;
   transform: translateX(-50%);
@@ -16,8 +21,9 @@ body{
 }
 
 .heading{
-  
-  color: white;
+  background: black;
+  height: 100%;
+  color: black;
   position: relative;
   display: flex;
   align-items: center;
@@ -30,9 +36,7 @@ body{
   padding: 0;
 }
 header{
-  height: 65px;
-  
-background: black;
+background: white;
   color: green;
   position: relative;
   top: 0;
