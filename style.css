@@ -16,13 +16,13 @@ border-radius: 15px;
   margin: 5px;
   
   position: sticky;
-  left: 20%;
+  left: 10%;
   text-align: center;
 }
 
 .heading{
   background: black;
-  height: 120px;
+  height: 100px;
   color: black;
   position: relative;
   display: flex;
