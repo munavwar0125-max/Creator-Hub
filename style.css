@@ -21,11 +21,9 @@ body{
   position: relative;
   display: flex;
   align-items: center;
-  padding: 10px 20px;
+  padding: ;
 }
-.heading > div:first-child {
-  /* the logo/image div — stays left naturally */
-}
+
 .heading h2,
 .heading h6{
   margin: 0;
