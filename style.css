@@ -10,7 +10,8 @@ body{
   margin: 5px ;
   border: 2px solid grey;
 border-radius: 15px;
-}#head {
+}
+#head {
   color: white;
   margin: 5px;
   
@@ -22,7 +23,7 @@ border-radius: 15px;
 
 .heading{
   background: black;
-  height: 100%;
+  height: 100px;
   color: black;
   position: relative;
   display: flex;
