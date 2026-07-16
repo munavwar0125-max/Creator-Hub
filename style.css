@@ -82,7 +82,9 @@ background: white;
 .card{
   height: 500px;
   width: 300px;
-  background-color:#349beb;
+  background-color:blue;
+  color: pink;
+  text-decoration: none;
   border:2px solid black;
   border-radius: 25px;
   text-align: center;
