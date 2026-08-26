@@ -1,0 +1,56 @@
+*{box-sizing: border-box;
+  background: black;
+}
+.grid{
+  background: black;
+  color:;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+.fCard{
+perspective: 1000px;
+height:230px ;
+width: 230px;
+margin: 20px;
+background: black;
+border: none;
+
+}
+.fInner{
+  border: none;
+  position: relative;
+  transform-style:preserve-3d;
+  transition: 0.7s;
+  height: 100%;
+  width: 100%;
+  background:black;
+  /*display: flex;
+  flex-wrap: wrap;
+  justify-content: center;*/
+}
+.fFront, .fRear{
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  inset: 0;
+  padding: 10px;
+  backface-visibility: hidden;
+}
+
+.fFront{
+  position: center;
+  height: 100%;
+  width: 100%;
+  background: yellow;
+ border:2px solid cyan;
+}
+.fRear{
+  height: 100%;
+  width: 100%;
+  background: pink;
+  color:black;
+  border:2px solid cyan;
+  transform :rotateY(180deg);
+}
