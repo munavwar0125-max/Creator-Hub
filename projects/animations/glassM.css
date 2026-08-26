@@ -1,0 +1,156 @@
+*{}
+body{
+  background: linear-gradient(149deg, #6a5af9, #f9748f,#5a6f,#7a91);
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.grid1{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background: rgba(255,255,255,0.1);
+  border-radius:30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid2{
+  position: relative;
+  height: 300px;
+  width: 300px;
+  background: rgba(255,255,255,0.1);
+  border-radius:30px;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid3{
+  position: relative;
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: center;
+  height: 300px;
+  width: 300px;
+  background: rgba(255,255,255,0.1);
+  border-radius:30px;
+}
+
+
+.shape{
+  
+  position: absolute;
+  height: 100px;
+  width: 100px;
+  background: yellow;
+  /* Runs once, then stops 
+animation: fadeIn 1s ease-out;
+*/
+/* Waits 2 seconds before starting *//*
+animation: slideIn 0.5s ease 2s;*/
+ /* animation: blink 1s infinite;*/
+ /* animation: shake 0.5s  infinite;
+  animation: spin 2s linear infinite;
+  */
+}
+.tag{
+
+  background:white;
+  color: black;
+  height: 30px;
+  
+}
+
+.heart {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    transform: rotate(-45deg);
+    animation: heartbeat 1.2s ease-in-out infinite;
+  }
+
+  .heart::before,
+  .heart::after {
+    content: "";
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background: red;
+    border-radius: 50%;
+  }
+
+  .heart::before {
+    top: -50px;
+    left: 0;
+  }
+
+  .heart::after {
+    top: 0;
+    left: 50px;
+  }
+
+  @keyframes heartbeat {
+    0%   { transform: rotate(-45deg) scale(1); }
+    14%  { transform: rotate(-45deg) scale(1.3); }
+    28%  { transform: rotate(-45deg) scale(1); }
+    42%  { transform: rotate(-45deg) scale(1.3); }
+    70%  { transform: rotate(-45deg) scale(1); }
+    100% { transform: rotate(-45deg) scale(1); }
+  }
+
+.diamond{
+  height: 150px;
+  width:150px;
+  position: relative;
+    background: green;
+    transform: rotate(-45deg);
+    animation: spin 2s linear infinite;
+}
+@keyframes spin{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+    }
+}
+.circle{
+  height: 150px;
+  width: 150px;
+  position: relative;
+  background: lightblue;
+  animation: blink 1s step-end infinite;
+  border-radius: 50%;
+}
+@keyframes blink {
+  0%, 100% { opacity: 1.7; }
+  50%      { opacity: 0.3; }
+}
+
+
+
+
+
+
+
+
+  @keyframes float {
+    0%, 100% { transform: translateY(0); }
+    50%      { transform: translateY(-20px); }
+  }
+  
+@keyframes pulse  { 50% { transform: scale(1.1); } }
+
+
+@keyframes shake  { 25% { transform: translateX(-5px); } 75% { transform: translateX(5px);
+
