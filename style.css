@@ -4,7 +4,7 @@
 }
 body{
   padding: 20px;
-  background-color: #0A0E14;
+  background-color: lightblue;
   
 }
 
@@ -81,7 +81,7 @@ background: white;
   text-align: center;
 }
 .container{
-  background-color:  #0A0E14;
+  background-color:  lightblue;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
