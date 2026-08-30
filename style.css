@@ -6,6 +6,13 @@ body{
   background-color: #ffFa;
   
 }
+
+img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;    /* fills div, crops overflow, keeps aspect ratio */
+}
+
 #logo{
   margin: 5px ;
   border: 2px solid grey;
@@ -79,10 +86,16 @@ background: white;
   padding: 69px;
   min-height: 100vh;
 }
+#games{
+  background: ;
+}
+#animations{
+  background:#0E0E2A;
+}
 .card{
-  height: 500px;
+  height: 300px;
   width: 300px;
-  background-color:blue;
+  background-color:black;
   color: pink;
   text-decoration: none;
   border:2px solid black;
